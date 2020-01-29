@@ -7,7 +7,7 @@
 
         <!-- OP-TEE gits -->
         <project path="optee_client"         name="OP-TEE/optee_client.git" revision="refs/tags/3.8.0" clone-depth="1" />
-        <project path="optee_os"             name="OP-TEE/optee_os.git" revision="refs/tags/3.8.0" clone-depth="1" />
+        <project path="optee_os"             name="gagachang/optee_os.git" revision="rpi3_gpio_driver_pta" clone-depth="1" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" revision="refs/tags/3.8.0" clone-depth="1" />
         <project path="build"                name="gagachang/OP-TEE_build.git" revision="secure_lighting" clone-depth="1" >
                 <linkfile src="rpi3.mk" dest="build/Makefile" />
